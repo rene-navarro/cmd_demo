@@ -12,7 +12,8 @@ public class ProcesaLista {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        for (int i = args.length - 1; i >= 0; i--) {
+        int i = args.length - 1;
+        while (i >= 0) {
             int x = 0;
 
             try {
@@ -26,6 +27,7 @@ public class ProcesaLista {
             max = Math.max(max,x);
 
             suma = suma+ x;
+            i--;
         }
 
         System.out.println("Suma = " + suma);
