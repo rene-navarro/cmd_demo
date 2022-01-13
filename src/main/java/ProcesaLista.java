@@ -7,6 +7,8 @@ public class ProcesaLista {
             System.exit(1);
         }
 
+
+
         int suma = 0;
         int media = 0;
         int min = Integer.MAX_VALUE;
