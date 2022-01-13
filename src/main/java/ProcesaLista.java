@@ -12,7 +12,7 @@ public class ProcesaLista {
         int min = Integer.MAX_VALUE;
         int max = Integer.MIN_VALUE;
 
-        for (int i=0; i < args.length; i++) {
+        for (int i = args.length - 1; i >= 0; i--) {
             int x = 0;
 
             try {
